@@ -1,0 +1,6 @@
+
+# Ignore Files
+_*
+
+# Log Files
+*.log
