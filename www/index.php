@@ -18,7 +18,7 @@ require_once "core/base.php";
 	<div class="path">tests<?=$path?></div>
 	<div class="list">
 		<?php if (!empty($backPath)): ?>
-			<div><a href="?path=<?=urlencode($backPath)?>"><span class="icon">🞀</span> Back</a></div>
+			<div><a href="?path=<?=urlencode($backPath)?>"><span class="icon">⬅</span> Back</a></div>
 		<?php endif ?>
 		<?php if ($execPath): ?>
 			<pre id="testResults" data-path="tests<?=$execPath?>"></pre>
